@@ -1,24 +1,13 @@
-# README
+# Deploy a Ruby on Rails App on Render
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample [Ruby on Rails](https://rubyonrails.org/) app set up to work with on Render.
 
-Things you may want to cover:
+The sample app is deployed at https://rails.onrender.com.
 
-* Ruby version
+## Deployment on Render
 
-* System dependencies
+Fork the repo and use the button below to deploy this app one click.
 
-* Configuration
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To deploy manually, see the guide at https://render.com/docs/deploy-rails.
