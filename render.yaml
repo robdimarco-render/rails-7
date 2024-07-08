@@ -1,3 +1,4 @@
+previewsEnabled: true
 databases:
   - name: myrailssite
     databaseName: myrailssite
