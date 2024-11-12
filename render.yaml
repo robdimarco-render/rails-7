@@ -10,7 +10,7 @@ services:
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     autoDeploy: false
-    plan: pro max
+    plan: rob pro
     envVars:
       - key: DATABASE_URL
         fromDatabase:
