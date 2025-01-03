@@ -8,7 +8,6 @@ services:
   - type: web
     name: myrailssite
     env: ruby
-    plan: free
     preDeployCommand: "echo hello"
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
