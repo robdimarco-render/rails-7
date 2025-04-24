@@ -6,6 +6,11 @@ databases:
 
 services:
   - type: web
+    runtime: image
+    name: rails-nginx
+    image:
+      url: nginx
+  - type: web
     name: myrailssite
     env: ruby
     buildCommand: "./bin/render-build.sh"
