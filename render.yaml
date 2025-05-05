@@ -12,10 +12,10 @@ services:
       url: nginx
   - type: web
     name: myrailssite
-    env: ruby
+    runtime: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
-    autoDeploy: false
+    autoDeployTrigger: commit
     envVars:
       - key: DATABASE_URL
         fromDatabase:
