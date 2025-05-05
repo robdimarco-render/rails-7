@@ -15,7 +15,7 @@ services:
     runtime: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
-    autoDeployTrigger: off
+    autoDeployTrigger: offffff
     envVars:
       - key: DATABASE_URL
         fromDatabase:
